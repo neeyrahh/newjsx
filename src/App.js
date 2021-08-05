@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import images from './images/shirt.jpeg';
+import './style.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style= {{borderSolid: '1px' ,maxWidth : '100vw'}}/>
+      <h1 className = 'title red'>Munirat</h1>
+      <img src="/images.jpeg/mirra.jpeg" alt="image"/>
+      <br />
+      <img src= {images} alt = "image" />
+      
+      
     </div>
   );
 }
